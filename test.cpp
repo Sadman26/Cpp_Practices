@@ -9,8 +9,8 @@ int main()
    cout<<"Enter Limit: ";
    cin>>x;
    int i=1;
-   while(i<=x){
+   do{
     cout<<y<<" x "<<i<<" = "<<y*i<<endl;
     i++;
-   }
+   }while(i<=x);
 }
