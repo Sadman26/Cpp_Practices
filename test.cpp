@@ -2,17 +2,15 @@
 using namespace std;
 int main()
 {
-    int opt;
-    cin>>opt;
-    switch(opt){
-        case 1: cout<<"Its one";
-        break;
-        case 2: cout<<"Its two";
-        break;
-        case 3: cout<<"Its three";
-        break;
-        default:
-        cout<<"Its invalid";
-        break;
-    }
+   int y;
+   cout<<"Enter Number: ";
+   cin>>y;
+   int x;
+   cout<<"Enter Limit: ";
+   cin>>x;
+   int i=1;
+   while(i<=x){
+    cout<<y<<" x "<<i<<" = "<<y*i<<endl;
+    i++;
+   }
 }
