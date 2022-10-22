@@ -2,9 +2,11 @@
 using namespace std;
 int main()
 {
-    string x;
-    cout<<"Enter Name: ";
-    cin>>x;
-    cout<<"Hello "<<x;
+    string x="sadman";
+    int x=10;
+    float x=23.2;
+    double x=22.23232;
+    bool x=false;
+    char x='x';
     return 0;
 }
