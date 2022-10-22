@@ -2,11 +2,10 @@
 using namespace std;
 int main()
 {
-    string x="sadman";
     int x=10;
-    float x=23.2;
-    double x=22.23232;
-    bool x=false;
-    char x='x';
-    return 0;
+    int y=20;
+    cout<<"SUM: "<<x+y<<endl;
+    cout<<"SUB: "<<x-y<<endl;
+    cout<<"MUL: "<<x*y<<endl;
+    cout<<"DIV: "<<x/y<<endl;
 }
