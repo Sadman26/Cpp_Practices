@@ -2,17 +2,17 @@
 using namespace std;
 int main()
 {
-    int x=2020;
-    if(x%400==0){
-        cout<<"leap year";
-    }
-    else if(x%100==0){
-        cout<<"Not leap year";
-    }
-    else if(x%4==0){
-        cout<<" leap year";
-    }
-    else{
-        cout<<"Not leap year";
+    int opt;
+    cin>>opt;
+    switch(opt){
+        case 1: cout<<"Its one";
+        break;
+        case 2: cout<<"Its two";
+        break;
+        case 3: cout<<"Its three";
+        break;
+        default:
+        cout<<"Its invalid";
+        break;
     }
 }
