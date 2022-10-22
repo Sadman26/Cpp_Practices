@@ -2,8 +2,17 @@
 using namespace std;
 int main()
 {
-    int x=10;
-    int y=20;
-    //returns 1 it means it is true or else false
-    cout<<(x<y);
+    int x=2020;
+    if(x%400==0){
+        cout<<"leap year";
+    }
+    else if(x%100==0){
+        cout<<"Not leap year";
+    }
+    else if(x%4==0){
+        cout<<" leap year";
+    }
+    else{
+        cout<<"Not leap year";
+    }
 }
