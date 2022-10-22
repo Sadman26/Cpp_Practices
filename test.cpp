@@ -2,10 +2,16 @@
 using namespace std;
 int main()
 {
-    int x=10;
-    int y=20;
-    cout<<"SUM: "<<x+y<<endl;
-    cout<<"SUB: "<<x-y<<endl;
-    cout<<"MUL: "<<x*y<<endl;
-    cout<<"DIV: "<<x/y<<endl;
+    string name="sadman";
+    string name2="sakib";
+    // String length
+    cout<<"First String Length: "<<name.size()<<endl;
+    //String concat
+    cout<<"String concat result "<<name+name2<<endl;
+    // print the string by each character
+    for (auto i = 0; i < name.size(); i++)
+    {
+        cout<<name[i]<<endl;
+    }
+    return 0;
 }
