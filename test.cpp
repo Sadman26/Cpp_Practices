@@ -2,16 +2,25 @@
 using namespace std;
 int main()
 {
-    string name="sadman";
-    string name2="sakib";
-    // String length
-    cout<<"First String Length: "<<name.size()<<endl;
-    //String concat
-    cout<<"String concat result "<<name+name2<<endl;
-    // print the string by each character
-    for (auto i = 0; i < name.size(); i++)
-    {
-        cout<<name[i]<<endl;
-    }
-    return 0;
+    //maximum
+    cout<<max(2,3)<<endl;
+    //minimum
+    cout<<min(2,3)<<endl;
+    //square root of 64
+    cout<<sqrt(64)<<endl;
+    //Round of value 2.3
+    cout<<round(2.3)<<endl;
+    //Floor value of 2.3
+    cout<<floor(2.3)<<endl;
+    //Ceil value of 2.3
+    cout<<ceil(2.3)<<endl;
+    //exponent of 2
+    cout<<exp(2)<<endl;
+    //sin value
+    cout<<sin(45)<<endl;
+    //cos value
+    cout<<cos(30)<<endl;
+    //tan value
+    cout<<tan(30)<<endl;
+    
 }
