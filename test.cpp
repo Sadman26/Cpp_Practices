@@ -2,6 +2,10 @@
 using namespace std;
 int main()
 {
-    cout<<"Hello World";
-    return 0;
+   for (auto i = 0; i < 10; i++)
+   {
+      cout<<i<<endl;
+   }
+   
+  return 0;
 }
