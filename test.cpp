@@ -1,11 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
+void show()
+{
+      cout<<"Hello World"<<endl;
+}
 int main()
 {
-   for (auto i = 0; i < 10; i++)
-   {
-      cout<<i<<endl;
-   }
+   show();
    
   return 0;
 }
